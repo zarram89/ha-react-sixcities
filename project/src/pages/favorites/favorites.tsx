@@ -2,7 +2,7 @@ import Card from '../../components/card/card';
 import type { Offer } from '../../types/types';
 
 type FavoritesProps = {
-  offers: Offer[];
+  offers: Offer[]
 }
 
 // [{
