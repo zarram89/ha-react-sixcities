@@ -1,7 +1,7 @@
 import type { CityName } from '../../types/types';
 
 type CityProps = {
-  name: CityName;
+  name: CityName,
   isActive: boolean;
   onClick: (name: CityName) => void;
 }
