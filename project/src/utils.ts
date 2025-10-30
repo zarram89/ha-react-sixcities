@@ -6,4 +6,4 @@ export const formatDate = (date: string) => {
   return `${months[dateParsed.getMonth()]} ${dateParsed.getFullYear()}`;
 };
 
-export const getStarsWidth = (rating: number): string => `${(MAX_PERCENT_STARS_WIDTH * rating) / STARS_COUNT}%`;
+export const getStarsWidth = (rating: number) => `${(MAX_PERCENT_STARS_WIDTH * rating) / STARS_COUNT}%`;
